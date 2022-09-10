@@ -1,0 +1,448 @@
+1662689243943	geckodriver	INFO	Listening on 127.0.0.1:57615
+1662689244030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49579" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo7wnpI"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689245633	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo7wnpI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49579/devtools/browser/9e75ccea-9179-4c90-9764-740567b384ad
+1662689250704	Marionette	INFO	Listening on port 32919
+1662689250792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662689416112	geckodriver	INFO	Listening on 127.0.0.1:38535
+1662689416193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47789" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXSEMQw"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689417714	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXSEMQw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47789/devtools/browser/9f4dbcae-ffe2-435e-b48a-941e707b1918
+1662689422218	Marionette	INFO	Listening on port 35655
+1662689422359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662689473042	geckodriver	INFO	Listening on 127.0.0.1:60159
+1662689473130	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecOJnO0"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689474704	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecOJnO0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44353/devtools/browser/c60871ac-3a69-4099-b649-7bbdb7d5a247
+1662689479976	Marionette	INFO	Listening on port 44793
+1662689480089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:137:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:875:13
+
+console.error: services.settings: 
+  main/top-sites Signature failed  InvalidSignatureError: Invalid content signature (main/top-sites)
+console.error: services.settings: 
+  main/top-sites local data was corrupted
+console.warn: services.settings: main/top-sites Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+1662689537118	Marionette	INFO	Stopped listening on port 44793
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1662689538139	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662689538444	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1662689562389	geckodriver	INFO	Listening on 127.0.0.1:48025
+1662689562472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaUR3qk"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689564102	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaUR3qk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59899/devtools/browser/59a651f3-7859-4a33-b099-fef6928f80c8
+1662689569334	Marionette	INFO	Listening on port 35625
+1662689569457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662689593924	Marionette	INFO	Stopped listening on port 35625
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 18300, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-esr-Qq8TLN/firefox-esr-91.13.0esr/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662689594971	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662689689574	Marionette	INFO	Stopped listening on port 35655
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+!!! error running onStopped callback: TypeError: callback is not a function
+1662689689815	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662689690942	Marionette	INFO	Stopped listening on port 32919
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662689691080	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662689745070	geckodriver	INFO	Listening on 127.0.0.1:58683
+1662689745121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepqSFvm"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689745822	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepqSFvm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39117/devtools/browser/a865ed96-1353-4ace-a862-69f789c4b57d
+1662689748468	Marionette	INFO	Listening on port 45259
+1662689748544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662689768226	Marionette	INFO	Stopped listening on port 45259
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662689768638	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662689810597	geckodriver	INFO	Listening on 127.0.0.1:43641
+1662689810645	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLyO3pf"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689811382	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLyO3pf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59821/devtools/browser/3631bd10-d894-48f7-b1ce-509e7aa7a3ca
+1662689814255	Marionette	INFO	Listening on port 37393
+1662689814368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662689835847	Marionette	INFO	Stopped listening on port 37393
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662689836301	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662689862359	geckodriver	INFO	Listening on 127.0.0.1:45749
+1662689862408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiler3S2ch"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689863141	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiler3S2ch/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45285/devtools/browser/db999cde-4b86-4aaa-999f-c36ca809f7bf
+1662689865872	Marionette	INFO	Listening on port 40229
+1662689865936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662689898688	geckodriver	INFO	Listening on 127.0.0.1:53583
+1662689898746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMUc7Ny"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662689899478	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMUc7Ny/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58355/devtools/browser/f86b041e-12dd-4a0f-805a-6fa250333931
+1662689902257	Marionette	INFO	Listening on port 38789
+1662689902373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662689904062	Marionette	INFO	Stopped listening on port 40229
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662689904450	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662689953241	Marionette	INFO	Stopped listening on port 38789
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662689954009	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691064989	geckodriver	INFO	Listening on 127.0.0.1:34001
+1662691065049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileD3lqEL"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691065787	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD3lqEL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37601/devtools/browser/607ce923-9366-4d19-babe-ea02c25d91f0
+1662691068466	Marionette	INFO	Listening on port 36585
+1662691068573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662691092159	Marionette	INFO	Stopped listening on port 36585
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662691092627	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691102524	geckodriver	INFO	Listening on 127.0.0.1:33039
+1662691102571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNogifa"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691103285	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNogifa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40411/devtools/browser/0b7413ce-0700-4479-acc1-e3e38ee14f17
+1662691106049	Marionette	INFO	Listening on port 39319
+1662691106108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662691160539	geckodriver	INFO	Listening on 127.0.0.1:46471
+1662691160602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39045" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMMvpxk"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691161318	Marionette	INFO	Marionette enabled
+1662691175378	geckodriver	INFO	Listening on 127.0.0.1:44337
+1662691175437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3wrh5v"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691176159	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3wrh5v/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51129/devtools/browser/6826e1e1-b69b-48ed-ac01-8ae29278213c
+1662691178862	Marionette	INFO	Listening on port 44553
+1662691178966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662691189634	Marionette	INFO	Stopped listening on port 44553
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1662691190208	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691292196	geckodriver	INFO	Listening on 127.0.0.1:38855
+1662691292250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCZjJTj"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691292971	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCZjJTj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53521/devtools/browser/5412f455-26b1-4e64-90ac-49e4738fe6fd
+1662691295654	Marionette	INFO	Listening on port 40899
+1662691295678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662691303429	Marionette	INFO	Stopped listening on port 40899
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662691303918	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691352065	geckodriver	INFO	Listening on 127.0.0.1:53273
+1662691352112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9w7Cv3"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691352846	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9w7Cv3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46997/devtools/browser/16a65715-27bf-4d43-9518-9c57f4cde3f3
+1662691355504	Marionette	INFO	Listening on port 45941
+1662691355536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662691365138	Marionette	INFO	Stopped listening on port 45941
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662691365564	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691504903	geckodriver	INFO	Listening on 127.0.0.1:33171
+1662691504956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46637" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMzSsIr"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691505664	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMzSsIr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46637/devtools/browser/1e0b9feb-d8e2-4265-b530-7bf8ce25ea88
+1662691508472	Marionette	INFO	Listening on port 36339
+1662691508581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://f2c95e7ce2da2b4804668ee3202e260f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+1662691519448	Marionette	INFO	Stopped listening on port 36339
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662691519961	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691533260	geckodriver	INFO	Listening on 127.0.0.1:47381
+1662691533309	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBzo7tI"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691534036	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBzo7tI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34825/devtools/browser/d7dae259-79c0-4b7b-a909-9393e9e7c2bd
+1662691536683	Marionette	INFO	Listening on port 41459
+1662691536733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://08493f288762148e0e4c11fa66ed5063.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+1662691588065	geckodriver	INFO	Listening on 127.0.0.1:50485
+1662691588124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevoWPaK"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691588842	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevoWPaK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35821/devtools/browser/823b37cc-fcbc-47e9-8a13-906989fe11a7
+1662691591601	Marionette	INFO	Listening on port 45585
+1662691591654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662691595052	Marionette	INFO	Stopped listening on port 39319
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1662691595220	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+JavaScript error: https://276f0595da918b12658fb603c0d5c158.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://3b2e143f8e05ed9c6a7c59d52273f514.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1662691640501	Marionette	INFO	Stopped listening on port 41459
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1662691640861	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691682967	geckodriver	INFO	Listening on 127.0.0.1:48291
+1662691683030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41779" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexgYdpf"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691683740	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexgYdpf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41779/devtools/browser/df9dbe96-5b51-404c-abcb-d92a0e7711cd
+1662691686443	Marionette	INFO	Listening on port 39977
+1662691686642	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.js:962:3
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1662691690676	Marionette	INFO	Stopped listening on port 39977
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1662691691340	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1662691696981	geckodriver	INFO	Listening on 127.0.0.1:53619
+1662691697035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59603" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSErOHJ"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662691697752	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSErOHJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59603/devtools/browser/11861cfd-5f24-4115-b4e1-9f9b80b4f53c
+1662691700665	Marionette	INFO	Listening on port 43943
+1662691700762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://18be4938b77a927851c74277cd40cc56.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://43b4eebd55227acf2f33ed4255ae2ae3.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://a203a2601033fc1fd7448b216345ccf3.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://e2f0a894a18bc557fdbde13cb0af98c0.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://3cceda632ac87f36c69b76709a796953.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://baf343d76c1a6b225223ba0626c88356.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://52bf77d232c7f0d93e1d9a98b43bfa2a.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://346958562f5dc42cf62f4ea2adccdc6a.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://75af7f1c6b0451afa55409b20c0987e5.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://e99e510544eb86657d1cf844b3f4ec35.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://83d2d2ac20d201b72f3c6fdedd84f9a4.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://ccd1bd522dd7443c2c187ac48b6c9d59.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: https://6a5b86853661b4a1c1cf3f08b85d36c8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1662692055974	geckodriver	INFO	Listening on 127.0.0.1:60549
+1662692056020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVzYGgY"
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1662692056719	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVzYGgY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58299/devtools/browser/749c805a-15b7-4051-9cb4-02a2d0a32f99
+1662692059339	Marionette	INFO	Listening on port 45639
+1662692059445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://07ad2fbdfabd72ab17df380fecc37879.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://d72a8bef8dad2c201d9da73b6f1fcea0.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1662692110666	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://eafa5fd1e5a0298759061c81c18699b1.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://e4b5d776379435a43b45767d8e662642.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://5a4916b034516cb8bf786ba5ed2f01ab.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://1af3698b075f751b52a55bf250e506ea.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+1662692156937	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://19fc0409362cf4cf3cf6140df8683ec1.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html line 2 > injectedScript, line 23: TypeError: window.frameElement is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
